@@ -1,0 +1,5 @@
+name: KookBot
+version: 0.1.0
+api-version: 0.37.2
+authors: ["realseek"]
+main: snw.jkook.example.Main
