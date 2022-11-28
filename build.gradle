@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.SNWCreations:JKook:0.37.2'
+    implementation 'com.github.SNWCreations:JKook:0.37.3'
 }
 
 test {
