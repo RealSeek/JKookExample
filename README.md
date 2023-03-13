@@ -3,9 +3,11 @@
 
 可以用此模板开发一个基本的 JKook Bot
 
-使用了稳定版本的 JKook API 0.37.3
+请使用 shadowJar
 
-推荐搭配使用 KookBC 0.17.2
+使用了稳定版本的 [JKook API](https://github.com/SNWCreations/JKook) 0.48.2
+
+推荐搭配使用 [KookBC](https://github.com/SNWCreations/KookBC) 0.26.9
 
 ---
 
@@ -13,6 +15,8 @@ This is a Gradle template for JKook
 
 A basic JKook Bot can be developed with this template
 
-Stable version of JKook API 0.37.3 is used
+Please use shadowJar
 
-Recommended to use with KookBC 0.17.2
+Stable version of [JKook API](https://github.com/SNWCreations/JKook) 0.48.2 is used
+
+Recommended to use with [KookBC](https://github.com/SNWCreations/KookBC) 0.26.9
