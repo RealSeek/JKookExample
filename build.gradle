@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
 group 'org.example'
@@ -11,9 +12,15 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.SNWCreations:JKook:0.37.3'
+    implementation 'com.github.SNWCreations:JKook:0.48.2'
 }
 
 test {
     useJUnitPlatform()
+}
+
+shadowJar {
+    dependencies {
+        exclude(dependency('com.github.SNWCreations:JKook:0.48.2'))
+    }
 }
